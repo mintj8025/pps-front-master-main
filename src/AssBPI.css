@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Kanit;
+    src: url(./font/Kanit-SemiBold.ttf);
+  } 
+
+  @font-face {
+    font-family: lightKanit;
+    src: url(./font/Kanit-Light.ttf);
+  } 
+  
+  .fullscreen-block{
+      background-color: #F3F2FD;
+      height: 100vh;
+      margin: 0;
+      position: relative;
+      font-family: Kanit;
+    }
+
+    .ppsForm {
+    position: absolute;
+    left: 220px;
+    top: 90px;
+    }
+
+    .radioActivity .MuiFormControlLabel-root {
+      margin: 0 2px; /* ปรับระยะห่างให้น้อยลง */
+    }
+
+    .radioEmotion .MuiFormControlLabel-root {
+      margin: 0 2px; /* ปรับระยะห่างให้น้อยลง */
+    }
+
+    .radioWalk .MuiFormControlLabel-root {
+      margin: 0 2px; /* ปรับระยะห่างให้น้อยลง */
+    }
+
+    .radioWork .MuiFormControlLabel-root {
+      margin: 0 2px; /* ปรับระยะห่างให้น้อยลง */
+    }
+
+    .radioRelationship .MuiFormControlLabel-root {
+      margin: 0 2px; /* ปรับระยะห่างให้น้อยลง */
+    }
+
+    .radioSleep .MuiFormControlLabel-root {
+      margin: 0 2px; /* ปรับระยะห่างให้น้อยลง */
+    }
+
+    div.navbar{
+      position: fixed;
+    }

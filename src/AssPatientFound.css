@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Kanit;
+    src: url(./font/Kanit-SemiBold.ttf);
+  } 
+
+  @font-face {
+    font-family: lightKanit;
+    src: url(./font/Kanit-Light.ttf);
+  } 
+  
+  .fullscreen-block{
+      background-color: #F3F2FD;
+      height: 100vh;
+      margin: 0;
+      position: relative;
+      font-family: Kanit;
+    }
+
+    .swal2-popup {
+      font-family: lightKanit, sans-serif;
+    }
+   
+    .assessment-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* ให้ส่วนนี้เต็มความสูงของหน้าเว็บ */
+    }
+    
+    .assessmentAuth {
+      padding: 20px;
+      position: absolute;
+      margin-left: 250px;
+      margin-top: 80px;
+    }
+    
+
+    .assessmentAuth h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .assessmentAuth .search-results {
+      margin-top: 20px;
+    }
+    
+    .assessmentAuth .search-results ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .assessmentAuth .search-results li {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      margin-bottom: 10px;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
+    div.navbar{
+      position: fixed;
+    }

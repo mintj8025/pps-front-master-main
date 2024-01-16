@@ -1,0 +1,49 @@
+@font-face {
+    font-family: Kanit;
+    src: url(./font/Kanit-SemiBold.ttf);
+  } 
+
+  @font-face {
+    font-family: lightKanit;
+    src: url(./font/Kanit-Light.ttf);
+  } 
+  
+  .fullscreen-block{
+      background-color: #F3F2FD;
+      height: 100vh;
+      margin: 0;
+      position: relative;
+      font-family: Kanit;
+    }
+
+
+    .assessmentForm {
+    position: absolute;
+    left: 200px;
+    top: 90px;
+    }
+
+    .backpage {
+      position: absolute;
+      left: 200px;
+      top: 20px;
+    }
+
+    .radioForm {
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+      margin-top: 35px;
+    }
+    
+    .radioForm .MuiFormControlLabel-root {
+      margin: 0 3px; 
+    }
+    
+    .centerButton {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px; 
+    }
+    

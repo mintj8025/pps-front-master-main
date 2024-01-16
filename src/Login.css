@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Kanit;
+    src: url(./font/Kanit-SemiBold.ttf);
+} 
+
+@font-face {
+  font-family: lightKanit;
+  src: url(./font/Kanit-Light.ttf);
+} 
+
+.App {
+    height: 100vh;
+    background-color: #F3F2FD;
+    font-family: Kanit;
+}
+
+.swal2-popup {
+  font-family: lightKanit, sans-serif;
+}
+
+.MuiInputBase-input  {
+    background: white;
+  }
+  
+.MuiTextField-root {
+    background: white;
+  }
+

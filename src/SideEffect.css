@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Kanit;
+    src: url(./font/Kanit-SemiBold.ttf);
+  } 
+
+  @font-face {
+    font-family: lightKanit;
+    src: url(./font/Kanit-Light.ttf);
+  } 
+  
+  .fullscreen-block{
+      background-color: #F3F2FD;
+      height: 100vh;
+      margin: 0;
+      position: relative;
+      font-family: Kanit;
+    }
+    
+    .backpage {
+      position: absolute;
+      left: 200px;
+      top: 20px;
+    }
+
+    .sideEffectForm {
+    position: absolute;
+    left: 220px;
+    top: 90px;
+    }

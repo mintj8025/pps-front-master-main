@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Kanit;
+  src: url(./font/Kanit-Light.ttf);
+} 
+
+@font-face {
+  font-family: lightKanit;
+  src: url(./font/Kanit-Light.ttf);
+} 
+
+.fullscreen-block{
+    background-color: #F3F2FD;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    font-family: Kanit;
+  }
+
+  .username{
+    position: absolute;
+    left: 980px;
+    margin-top: 20px;
+  }
+  
+  .profile {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  .home {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+
+  .register {
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+
+  .assessment {
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+
+  .history {
+    margin-top: 15px;
+    margin-left: 50px;
+  }
+
+  .logout{
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+
+ .register-menu{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 320px;
+}
+
+.assessment-menu{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 640px;
+}
+
+.history-menu{
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 960px;
+}
+
+div.navbar{
+  position: fixed;
+}

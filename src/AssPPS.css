@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Kanit;
+    src: url(./font/Kanit-SemiBold.ttf);
+  } 
+
+  @font-face {
+    font-family: lightKanit;
+    src: url(./font/Kanit-Light.ttf);
+  } 
+  
+  
+  /* App.css */
+    body {
+      background-color: #F3F2FD;
+    }
+
+    .ppsForm {
+    position: absolute;
+    left: 220px;
+    top: 90px;
+    }
+
+    div.navbar {
+      width: 220px; /* ปรับความกว้างตามที่ต้องการ */
+      height: 100%; /* ปรับความสูงตามที่ต้องการ */
+      position: fixed;
+    }
+    
+    .radioGroupsContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); /* แสดงอย่างละ 1 คอลัมน์ และ 1fr หมายถึงส่วนที่เท่ากัน */
+      gap: 20px; /* ระยะห่างระหว่าง RadioGroup แต่ละอัน */
+    }
+    
+    .radioGroup {
+      /* สไตล์ของ RadioGroup แต่ละอัน */
+    }
+
+    .radioLabel{
+      font-family: Kanit;
+    }
+
+    
+    
+    
+    
